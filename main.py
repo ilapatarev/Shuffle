@@ -1,5 +1,5 @@
 import random
-names=['ivan', 'dragan', 'niki']
+names=list(input().split(', '))
 random.shuffle(names)
 c=0
 for name in names:
